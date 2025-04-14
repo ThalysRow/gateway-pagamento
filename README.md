@@ -1,6 +1,12 @@
 # Gateway de Pagamento
 
-API de Gateway de Pagamento desenvolvida em Go.
+Este projeto foi desenvolvido durante a Imersão Full Cycle, onde construímos um Gateway de Pagamento completo utilizando arquitetura de microsserviços.
+O objetivo é demonstrar a construção de um sistema distribuído moderno, com separação de responsabilidades, comunicação assíncrona e análise de fraudes em tempo real.
+
+## Arquitetura
+
+![image](https://github.com/user-attachments/assets/de14ab74-645d-453d-87a8-d0065803319e)
+
 
 ## Requisitos
 
@@ -51,11 +57,11 @@ go run cmd/app/main.go
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 ```
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=1234
-DB_NAME=postgres
-DB_SSL_MODE=disable
-HTTP_PORT=8080
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+DB_SSL_MODE=
+HTTP_PORT=
 ```
