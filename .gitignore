@@ -1,0 +1,30 @@
+# Binários para programas e plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Arquivos de saída
+*.out
+
+# Arquivos de ambiente
+.env
+
+# Diretórios
+vendor/
+.idea/
+.vscode/
+
+# Arquivos do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work 
